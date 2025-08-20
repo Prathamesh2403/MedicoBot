@@ -1,0 +1,29 @@
+# Core FastAPI Framework
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.7
+python-dotenv==1.1.1
+python-multipart==0.0.20
+
+# Chatbot & AI SDKs (These are likely essential for your app's logic)
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-core==0.3.69
+langchain-google-genai==2.1.8
+langchain-huggingface==0.3.0
+langchain-openai==0.3.28
+groq==0.31.0
+elevenlabs==2.8.1
+pinecone-client==4.1.2
+
+sentence-transformers==5.0.0
+sentencepiece==0.2.0
+
+# Dependencies for the above packages (pip will handle most, but good to have)
+httpx==0.28.1
+numpy==2.2.6 # Required by many ML libraries
+requests==2.32.4
+tiktoken==0.9.0
+PyYAML==6.0.2
+tqdm==4.67.1
+huggingface-hub==0.33.4

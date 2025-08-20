@@ -16,8 +16,6 @@ groq==0.31.0
 elevenlabs==2.8.1
 pinecone-client==4.1.2
 
-sentence-transformers==5.0.0
-sentencepiece==0.2.0
 
 # Dependencies for the above packages (pip will handle most, but good to have)
 httpx==0.28.1
